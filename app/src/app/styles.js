@@ -13,13 +13,16 @@ export default {
     flexWrap: 'wrap',
     justifyContent: 'flex-start',
     alignContent: 'stretch',
-    alignItems: 'flex-start'
+    alignItems: 'stretch'
   },
 
   image: {
     order: '1',
     flex: '1 0 60%',
-    alignSelf: 'flex-start'
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    background: '#fafafa'
   },
 
   text: {
